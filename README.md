@@ -1,10 +1,10 @@
-#Backend for GSE Class WS23/24
+# Backend for GSE Class WS23/24
 
-##Testing locally
+## Testing locally
 
 ### Start API
-In CLI
+In CLI:\
   python Predict.py
-###Test API
-In CLI
+### Test API
+In CLI:\
   curl -d @API_Test_Data.json -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/predict 
