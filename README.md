@@ -1,6 +1,10 @@
-To test the code locally
+#Backend for GSE Class WS23/24
 
-##Start API
-python Predict.py
-##Test API
-curl -d @API_Test_Data.json -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/predict 
+##Testing locally
+
+### Start API
+In CLI
+  python Predict.py
+###Test API
+In CLI
+  curl -d @API_Test_Data.json -H "Content-Type: application/json" -X POST http://127.0.0.1:5000/predict 
